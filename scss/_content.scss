@@ -1,0 +1,49 @@
+h1, h2, h3{
+	font-family: $fontMain;
+	font-size: $fontSizeBig;
+	color:$fontColor;
+}
+
+p{
+	font-family: $fontMain;
+	font-size: $fontSizeMedium;
+	line-height: 1.3em;
+	// color:$fontColor;
+}
+
+section{
+	width: $w-100;
+	padding: $p; 
+	background-color: $bg-success;
+}
+
+aside{
+	padding:$p;
+	background-color: $bg-info;
+}
+
+
+.texto {
+	text-transform: uppercase;
+}
+.texto__titulo {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.texto__parrafo {
+	
+	color: rgb(0, 0, 0);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto__parrafo--footer {
+	color: dimgrey;
+}
+.texto__parrafo--blanco {
+	color: azure;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto__titulo--centrado{
+	text-align: center;
+}
+
+
